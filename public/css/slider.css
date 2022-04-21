@@ -8,7 +8,7 @@
   background-image: url('../img/slider/image3.png');
 }
 .slider {
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   position: relative;
   display: flex;
   justify-content: space-around;
