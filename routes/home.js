@@ -11,7 +11,7 @@ module.exports = (app) => {
         .catch((err) => warning = 'it was not possible list categories');
     productsDAO.list()
         .then((result) => products = result)
-        .catch((err) => warning = 'it was not possible list products');
+        .catch((err) => warning = 'it was not possible list ps');
 
     setTimeout(() => {
       res.status(200).render('home/index', {
