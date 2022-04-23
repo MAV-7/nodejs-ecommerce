@@ -9,7 +9,7 @@ module.exports = (app) => {
     categoriesDAO.list()
         .then((result) => categories = result)
         .catch((err) => warning = 'it was not possible list categories');
-    productsDAO.list(9)
+    productsDAO.list()
         .then((result) => products = result)
         .catch((err) => warning = 'it was not possible list products');
 
